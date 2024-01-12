@@ -8,17 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		BF984BD52B50E51900682B33 /* UserManagementApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF984BD42B50E51900682B33 /* UserManagementApp.swift */; };
-		BF984BD72B50E51900682B33 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF984BD62B50E51900682B33 /* ContentView.swift */; };
+		BF984BD72B50E51900682B33 /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF984BD62B50E51900682B33 /* UserListView.swift */; };
 		BF984BD92B50E51A00682B33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF984BD82B50E51A00682B33 /* Assets.xcassets */; };
 		BF984BDC2B50E51A00682B33 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF984BDB2B50E51A00682B33 /* Preview Assets.xcassets */; };
+		BF984BE32B50E5A200682B33 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF984BE22B50E5A200682B33 /* NetworkManager.swift */; };
+		BF984BE52B50E6D400682B33 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF984BE42B50E6D400682B33 /* User.swift */; };
+		BF984BE72B50EA8600682B33 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF984BE62B50EA8600682B33 /* UserViewModel.swift */; };
+		BF984BE92B50F48700682B33 /* AddUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF984BE82B50F48700682B33 /* AddUserView.swift */; };
+		BF984BEB2B5108B000682B33 /* EditUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF984BEA2B5108B000682B33 /* EditUserView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BF984BD12B50E51900682B33 /* UserManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UserManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF984BD42B50E51900682B33 /* UserManagementApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManagementApp.swift; sourceTree = "<group>"; };
-		BF984BD62B50E51900682B33 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BF984BD62B50E51900682B33 /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
 		BF984BD82B50E51A00682B33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF984BDB2B50E51A00682B33 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BF984BE22B50E5A200682B33 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		BF984BE42B50E6D400682B33 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		BF984BE62B50EA8600682B33 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		BF984BE82B50F48700682B33 /* AddUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUserView.swift; sourceTree = "<group>"; };
+		BF984BEA2B5108B000682B33 /* EditUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditUserView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +62,12 @@
 			isa = PBXGroup;
 			children = (
 				BF984BD42B50E51900682B33 /* UserManagementApp.swift */,
-				BF984BD62B50E51900682B33 /* ContentView.swift */,
+				BF984BD62B50E51900682B33 /* UserListView.swift */,
+				BF984BE22B50E5A200682B33 /* NetworkManager.swift */,
+				BF984BE42B50E6D400682B33 /* User.swift */,
+				BF984BE62B50EA8600682B33 /* UserViewModel.swift */,
+				BF984BE82B50F48700682B33 /* AddUserView.swift */,
+				BF984BEA2B5108B000682B33 /* EditUserView.swift */,
 				BF984BD82B50E51A00682B33 /* Assets.xcassets */,
 				BF984BDA2B50E51A00682B33 /* Preview Content */,
 			);
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF984BD72B50E51900682B33 /* ContentView.swift in Sources */,
+				BF984BE52B50E6D400682B33 /* User.swift in Sources */,
+				BF984BE32B50E5A200682B33 /* NetworkManager.swift in Sources */,
+				BF984BD72B50E51900682B33 /* UserListView.swift in Sources */,
+				BF984BE72B50EA8600682B33 /* UserViewModel.swift in Sources */,
+				BF984BEB2B5108B000682B33 /* EditUserView.swift in Sources */,
 				BF984BD52B50E51900682B33 /* UserManagementApp.swift in Sources */,
+				BF984BE92B50F48700682B33 /* AddUserView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
